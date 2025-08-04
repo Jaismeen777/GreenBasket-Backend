@@ -392,10 +392,27 @@ app.get("/", (req, res) => {
     <html>
       <head>
         <title>GreenBasket - Empowering Farmers</title>
+        <style>
+          img {
+            max-width: 90%;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+          }
+        </style>
       </head>
       <body style="font-family: sans-serif; text-align: center; padding: 50px;">
         <h1>Welcome to GreenBasket 🌱</h1>
         <p>This is the backend API service powering the GreenBasket mobile app — connecting local farmers with customers.</p>
+         <h2> App Screens</h2>
+          <img src="blob:https://web.whatsapp.com/52b2c47f-da9c-4c08-9194-ba3e46d7af81" />
+        <img src="blob:https://web.whatsapp.com/7ee78c81-787b-4090-9496-f4aa0aeeb21b" />
+<img src="blob:https://web.whatsapp.com/36911b3f-22c5-4641-90c8-a43287891a7d" />
+<img src="blob:https://web.whatsapp.com/a3fbf052-829c-4fa2-b856-303b6a348423" />
+<img src="blob:https://web.whatsapp.com/550c8402-40cd-445f-a38e-0524b349aca2" />
+<img src="blob:https://web.whatsapp.com/b129a1d7-c0d5-47db-8cdc-67c52849067a" />
+<img src="blob:https://web.whatsapp.com/09881927-beea-4eb1-af26-671d21f40ce8" />
+<img src="blob:https://web.whatsapp.com/43467cd5-106b-4eb7-b466-29c7474e8a4e" />
         <p><strong>API is Live ✅</strong></p>
         <p>For more details, contact: jaissawhney123@gmail.com</p>
       </body>
