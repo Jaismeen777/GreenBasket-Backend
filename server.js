@@ -397,7 +397,7 @@ app.get("/", (req, res) => {
         <h1>Welcome to GreenBasket 🌱</h1>
         <p>This is the backend API service powering the GreenBasket mobile app — connecting local farmers with customers.</p>
         <p><strong>API is Live ✅</strong></p>
-        <p>For more details, contact: support@greenbasket.app</p>
+        <p>For more details, contact: jaissawhney123@gmail.com</p>
       </body>
     </html>
   `);
