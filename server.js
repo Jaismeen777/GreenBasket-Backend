@@ -387,6 +387,21 @@ app.post('/initiate-payment', async (req, res) => {
         return res.status(500).json({ error: "Failed to create Razorpay order", details: error.message });
     }
 });
+app.get("/", (req, res) => {
+  res.send(`
+    <html>
+      <head>
+        <title>GreenBasket - Empowering Farmers</title>
+      </head>
+      <body style="font-family: sans-serif; text-align: center; padding: 50px;">
+        <h1>Welcome to GreenBasket 🌱</h1>
+        <p>This is the backend API service powering the GreenBasket mobile app — connecting local farmers with customers.</p>
+        <p><strong>API is Live ✅</strong></p>
+        <p>For more details, contact: support@greenbasket.app</p>
+      </body>
+    </html>
+  `);
+});
 
 // ✅ Start Server
 const PORT = process.env.PORT || 5000;
