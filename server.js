@@ -448,16 +448,33 @@ app.get("/", (req, res) => {
           
           <h2>App Screens</h2>
           <div class="image-grid">
-            <img src="/img1.jpg" />
-            <img src="/img2.jpg" />
+           <img src="/img11.jpg" />
             <img src="/img3.jpg" />
+            <img src="/img22.jpg" />
+            <img src="/img2.jpg" />
+            <img src="/img33.jpg" />
+            <img src="/img44.jpg" />
             <img src="/img4.jpg" />
+            <img src="/img1.jpg" />
+              <img src="/img56.jpg" />
+         <img src="/img57.jpg" />
+            <img src="/img55.jpg" />
+             <img src="/img58.jpg" />
+              <img src="/img59.jpg" />
+               <img src="/img60.jpg" />
             <img src="/img5.jpg" />
             <img src="/img6.jpg" />
-            <img src="/img66.jpg" />
-            <img src="/img7.jpg" />
+             <img src="/img61.jpg" />
+              <img src="/img62.jpg" />
+               <img src="/img63.jpg" />
+                <img src="/img67.jpg" />
+                 <img src="/img68.jpg" />
+                  <img src="/img681.jpg" />
+                  <img src="/img69.jpg" />
+                   <img src="/img71.jpg" />
             <img src="/img8.jpg" />
             <img src="/img9.jpg" />
+             <img src="/img10.jpg" />
           </div>
 
           <p style="margin-top: 30px;"><strong>API is Live ✅</strong></p>
