@@ -395,30 +395,74 @@ app.get("/", (req, res) => {
       <head>
         <title>GreenBasket - Empowering Farmers</title>
         <style>
-          img {
-            max-width: 90%;
+          body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f1f9f1;
+            margin: 0;
+            padding: 0;
+          }
+          .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            background-color: white;
+            padding: 30px 50px;
             border-radius: 10px;
-            margin: 20px 0;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            text-align: center;
+          }
+          h1 {
+            color: #2f7d32;
+          }
+          p {
+            font-size: 18px;
+            line-height: 1.6;
+          }
+          .image-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+          }
+          .image-grid img {
+            width: 30%;
+            border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+          }
+          @media (max-width: 768px) {
+            .image-grid img {
+              width: 45%;
+            }
+          }
+          @media (max-width: 480px) {
+            .image-grid img {
+              width: 90%;
+            }
           }
         </style>
       </head>
-      <body style="font-family: sans-serif; text-align: center; padding: 50px;">
-        <h1>Welcome to GreenBasket 🌱</h1>
-        <p>This is the backend API service powering the GreenBasket mobile app — connecting local farmers with customers.</p>
-         <h2> App Screens</h2>
-          <img src="img1.jpg" />
-        <img src="img2.jpg" />
-<img src="img3.jpg" />
-<img src="img4.jpg" />
-<img src="img5.jpg" />
-<img src="img6.jpg" />
-<img src="img66.jpg" />
-<img src="img7.jpg" />
-<img src="img8.jpg" />
-<img src="img9.jpg" />
-        <p><strong>API is Live ✅</strong></p>
-        <p>For more details, contact: jaissawhney123@gmail.com</p>
+      <body>
+        <div class="container">
+          <h1>Welcome to GreenBasket 🌱</h1>
+          <p>This is the backend API service powering the GreenBasket mobile app — connecting local farmers with customers.</p>
+          
+          <h2>App Screens</h2>
+          <div class="image-grid">
+            <img src="/img1.jpg" />
+            <img src="/img2.jpg" />
+            <img src="/img3.jpg" />
+            <img src="/img4.jpg" />
+            <img src="/img5.jpg" />
+            <img src="/img6.jpg" />
+            <img src="/img66.jpg" />
+            <img src="/img7.jpg" />
+            <img src="/img8.jpg" />
+            <img src="/img9.jpg" />
+          </div>
+
+          <p style="margin-top: 30px;"><strong>API is Live ✅</strong></p>
+          <p>For more details, contact: <a href="mailto:jaissawhney123@gmail.com">jaissawhney123@gmail.com</a></p>
+        </div>
       </body>
     </html>
   `);
